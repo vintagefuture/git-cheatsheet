@@ -12,3 +12,9 @@ git push origin master
 ```
 git config --get remote.origin.url
 ```
+
+**Push an empty commit (for example to trigger a Drone automation):**
+
+```
+git commit --allow-empty -m "Empty-Commit"
+```
